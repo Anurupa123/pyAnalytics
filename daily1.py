@@ -210,6 +210,7 @@ df1.groupby('gender').size()
 df1.groupby('gender')['marks'].mean()
 df1.groupby('gender').aggregate({'marks': [np.mean, 'max','min','std','count']})
 
+
 #%% #Graphs https://python-graph-gallery.com/
 #https://matplotlib.org/
 
